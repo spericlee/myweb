@@ -16,9 +16,9 @@ on:
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
-  contents:   contents
-  pages:   pages
-  id-token:   id-token
+  contents:   ""
+  pages:  ""
+  id-token:   ""
 
 # Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
 # However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
@@ -31,9 +31,9 @@ jobs:
   build:
     runs-on:    ubuntu-latest
     steps:
-      - name:       name
+      - name:       ""
         uses:         用途：actions/checkout@v4
-      - name:      Ruby
+      - name:      ""
         # https://github.com/ruby/setup-ruby/releases/tag/v1.207.0
         uses: ruby/setup-ruby@4a9ddd6f338a97768b8006bf671dfbad383215f4
         with:
