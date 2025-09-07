@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "这是title"
-subtitle: "Thinking in React vs. Thinking in Vue"
+subtitle: "testtesttest"
 author: "spericlee"
 header-style: text
 tags:
